@@ -1,6 +1,8 @@
 var x = document.getElementById('search').value;
 document.getElementById('getVal').addEventListener('click', getDetails);
 
+// Adding data from API to cards in getDetails function to page
+
 function getDetails() {
     fetch('https://restcountries.eu/rest/v2/name/' + `x`)
         .then((res) => res.json())
