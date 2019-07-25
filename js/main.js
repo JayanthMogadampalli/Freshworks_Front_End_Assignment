@@ -14,7 +14,7 @@ function getDetails() {
         <a href="countrydetails.html?countryname="+(${country.name})><img src="${country.flag}" class="img1" alt="Avatar" style="width:100%"></a>
         <div class="container2">
             <h4 id="heading3"><b>${country.name}</b></h4>
-            <p>Architect & Engineer</p>
+            <p id="cardtext">Architect & Engineer</p>
         </div>
     </div>
       `;
